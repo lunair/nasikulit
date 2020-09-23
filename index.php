@@ -752,11 +752,6 @@
                 <!-- Start gallery menu -->
                 <ul>
                   <li class="filter active" data-filter="all">ALL</li>
-                  <li class="filter" data-filter=".food">FOOD</li>
-                  <li class="filter" data-filter=".drink">DRINK</li>
-                  <li class="filter" data-filter=".restaurant">RESTAURANT</li>
-                  <li class="filter" data-filter=".dinner">DINNER</li>
-                  <li class="filter" data-filter=".dessert">DESSERT</li>
                 </ul>
               </div>
               <!-- Start gallery image -->
@@ -990,7 +985,7 @@
                       <span>DKI JAKARTA</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="outletjakarta.php"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1004,7 +999,7 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1018,7 +1013,7 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1032,7 +1027,7 @@
                       <span>JAWA TENGAH</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>  
@@ -1046,7 +1041,7 @@
                       <span>D.I. YOGYAKARTA</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1060,7 +1055,7 @@
                       <span>JAWA TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1074,7 +1069,7 @@
                       <span>JAWA TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1088,7 +1083,7 @@
                       <span>SULAWESI SELATAN</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1102,7 +1097,7 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1116,7 +1111,7 @@
                       <span>KALIMANTAN TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1130,7 +1125,7 @@
                       <span>BALI</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>                                                          
