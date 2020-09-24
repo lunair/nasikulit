@@ -24,17 +24,16 @@ default:
                   </div>
                   <?php
 
-    				$tahun = date ('Y');
+    				$tahun = date ("Y");
     				$nomor = "/FP/NKS/".$tahun;
-    				$query = mysqli_query($connect, "SELECT max(no_faktur) as Faktur FROM tb_trans_penjualan");
-        			$data = mysqli_fetch_array($query);
-    				$no= $data['Faktur'];
-    				$noUrut= $no+1;
-    				$nofak = "66";
+    				//$query = mysqli_query($connect, "SELECT max(no_faktur) as Faktur FROM tb_trans_penjualan");
+        		//$data  = mysqli_fetch_array($query);
+    				//$nofak = $data['Faktur'];
+    				@$noUrut++;
+    				@$nofaktur = "66";
     
-
     				$kode =  sprintf("%01s", $noUrut);
-    				$nomorbaru = $nofak.$kode.$nomor;
+    				$nomorbaru = $nofaktur.$kode.$nomor;
 				  ?>
                   <div class="card-body">
                   <form action="?&act=save" id="formtambahtransaksi" name="formtambahtransaksi" enctype="multipart/form-data" method="post">
@@ -159,7 +158,7 @@ default:
                     <div class="input-group-addon">
                       	<i class="fa fa-id-card"></i>
                     </div>
-                    <input type="text" name="jumlah" id="jumlah" readonly="true" placeholder="Total Harga " class="form-control" />
+                    <input type="text" name="jumlah" id="jumlah" readonly="true" placeholder="Jumlah Harga " class="form-control" />
                   	</div>
               	</div>
               	<div class="modal-footer">
@@ -184,7 +183,7 @@ default:
             <table class="table card-table table-vcenter text-nowrap datatable">
               <thead>
                 <tr>
-                  <th class="w-2">No.</th>
+                  <th>No.</th>
                   <th>No Faktur</th>
                   <th>Nama Outlet</th>
                   <th>Tanggal Transaksi</th>
@@ -201,25 +200,40 @@ default:
                       $no = 1;
                       $data = mysqli_query($connect,"SELECT id_penjualan, no_faktur, nama_outlet, tgl_penjualan, keterangan, nama_bahan, berat, nama_satuan, harga, jumlah FROM tb_trans_penjualan JOIN tb_outlet ON tb_outlet.kode_outlet=tb_trans_penjualan.kode_outlet JOIN tb_bahan ON tb_bahan.id_bahan=tb_trans_penjualan.id_bahan JOIN tb_satuan_bahan ON tb_satuan_bahan.id_satuan=tb_trans_penjualan.id_satuan");
                       while($d = mysqli_fetch_array($data)){
+                        $jumlah = $d['jumlah'];
                     ?>
                <tr>
-                  <td><span class="text-muted"><?php echo $no; ?></span></td>
+                  <td><?php echo $no; ?></td>
                   <td><?php echo $d['no_faktur']; ?></td>
                   <td><?php echo $d['nama_outlet']; ?></td>
-                  <td><?php echo $d['tgl_penjualan']; ?></td>
+                  <td align="center"><?php echo $d['tgl_penjualan']; ?></td>
                   <td><?php echo $d['keterangan']; ?></td>
-                  <td><?php echo $d['nama_bahan']; ?></td>
-                  <td><?php echo $d['berat']; ?></td>
-                  <td><?php echo $d['nama_satuan']; ?></td>
-                  <td><?php echo $d['harga']; ?></td>
-                  <td><?php echo $d['jumlah']; ?></td>
+                  <td align="center"><?php echo $d['nama_bahan']; ?></td>
+                  <td><?php echo $d['berat']; ?><?php echo $d['nama_satuan']; ?></td>
+                  <td><?php echo "Rp. ".number_format($d['harga']).""; ?></td>
+                  <td><?php echo "Rp. ".number_format($d['jumlah']).""; ?></td>
                   <td class="text-left">
                     <a href="trans_all_edit.php?id=<?php echo $d['id_penjualan'];?>" class="btn btn-info btn-sm"><i class="fe fe-edit"></i>Ubah</a>
                     <a href="?&act=delete&id=<?php echo $d['id_penjualan']; ?>" onClick="return confirm('Yakin data akan dihapus ?')"
                     class="btn btn-danger btn-sm"><i class="fe fe-trash"></i>Hapus</a>
                   </td>
                 </tr>
+                <?php
+                  @$total+=$jumlah;
+                ?>
               <?php $no++; } ?>
+                <tr>
+                  <td>Total yang harus dibayar</td>
+                  <td><strong>Rp.<?php echo $total ?></strong></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
               </tbody>
             </table> 
             <script>
@@ -241,13 +255,14 @@ default:
   	$namaoutlet 		= $_POST['namaoutlet'];
   	$tgltransaksi		= $_POST['tgltransaksi'];
   	$keterangan 		= $_POST['keterangan'];
-	$namabahan			= $_POST['namabahan'];
-	$beratbahan			= $_POST['berat'];
-	$satuanbahan		= $_POST['satuanbahan'];
-	$hargabahan			= $_POST['harga'];
-	$jumlah 			= $_POST['jumlah'];
+	  $namabahan			= $_POST['namabahan'];
+    //var_dump($namabahan);
+	  $beratbahan			= $_POST['berat'];
+	  $satuanbahan		= $_POST['satuanbahan'];
+	  $hargabahan			= $_POST['harga'];
+	  $jumlah 			  = $_POST['jumlah'];
 
-   $input=mysqli_query($connect,"INSERT INTO `tb_trans_penjualan`(`id_penjualan`, `no_faktur`, `kode_outlet`, `tgl_penjualan`, `keterangan`, `id_bahan`, `berat`, `id_satuan`, `harga`, `jumlah`) VALUES ('','$nofaktur','$namaoutlet','$tgltransaksi','$keterangan','namabahan','$beratbahan','$satuanbahan','$hargabahan','$jumlah')");
+   $input=mysqli_query($connect,"INSERT INTO `tb_trans_penjualan`(`id_penjualan`, `no_faktur`, `kode_outlet`, `tgl_penjualan`, `keterangan`, `id_bahan`, `berat`, `id_satuan`, `harga`, `jumlah`) VALUES ('','$nofaktur','$namaoutlet','$tgltransaksi','$keterangan','$namabahan','$beratbahan','$satuanbahan','$hargabahan','$jumlah')");
    //var_dump($input); exit();
       if ($input){
         //$_SESSION[status]    = "sukses";
