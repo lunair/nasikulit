@@ -26,14 +26,14 @@ default:
 
     				$tahun = date ("Y");
     				$nomor = "/FP/NKS/".$tahun;
-    				//$query = mysqli_query($connect, "SELECT max(no_faktur) as Faktur FROM tb_trans_penjualan");
-        		//$data  = mysqli_fetch_array($query);
-    				//$nofak = $data['Faktur'];
-    				@$noUrut++;
+    				$query = mysqli_query($connect, "SELECT max(no_faktur) as Faktur FROM tb_trans_penjualan");
+        		$data  = mysqli_fetch_array($query);
+    				$nofak = $data['Faktur'];
+    				@$noUrut= $nofak+1;
     				@$nofaktur = "66";
     
     				$kode =  sprintf("%01s", $noUrut);
-    				$nomorbaru = $nofaktur.$kode.$nomor;
+    				$nomorbaru = $kode.$nomor;
 				  ?>
                   <div class="card-body">
                   <form action="?&act=save" id="formtambahtransaksi" name="formtambahtransaksi" enctype="multipart/form-data" method="post">

@@ -42,14 +42,12 @@
                     <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-book"></i>Transaksi</a>
                     <div class="dropdown-menu dropdown-menu-arrow">
                       <a href="trans_all_outlet.php" class="dropdown-item ">Transaksi Penjualan All Outlet</a>
-                      <a href="trans_per_outlet.php" class="dropdown-item ">Transaksi Penjualan Per Outlet</a>
                     </div>
                   </li>
                   <li class="nav-item">
                     <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-book"></i>Laporan</a>
                     <div class="dropdown-menu dropdown-menu-arrow">
                       <a href="laporan_all_outlet.php" class="dropdown-item ">Laporan All Outlet</a>
-                      <a href="laporan_per_outlet.php" class="dropdown-item ">Laporan Per Outlet</a>
                     </div>
                   </li>
                   
