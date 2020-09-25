@@ -136,7 +136,7 @@
         <div class="col-md-12">
           <div class="mu-restaurant-menu-area">
             <div class="mu-title">
-              <h2>OUTLET JAKARTA</h2>
+              <h2>OUTLET YOGYAKARTA</h2>
               <i class="fa fa-spoon"></i>              
               <span class="mu-title-bar"></span>
             </div>
@@ -156,18 +156,18 @@
                             <li>
                               <div class="media">
                                 <div class="media-left">
-                                  <a href="https://goo.gl/maps/cQwtoYRAresu7r2KA">
+                                  <a href="https://goo.gl/maps/fbWEM63YLV1LXrdn6">
                                     <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>FATMAWATI</b></a></h4>
+                                  <h4 class="media-heading"><a href="#"><b>GODEAN</b></a></h4>
                                   <a href="https://gofood.link/u/a11O">
                                     <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
                                   <a href="#">
                                     <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
                                     <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Rabu - Senin = 11.00 - 20.30 WIB</h6></p>
+                                    <p>Senin - Minggu 11.00 - 21.00 WIB</h6></p>
                                 </div>
                               </div>
                             </li>

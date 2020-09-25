@@ -999,7 +999,7 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-link"></i></a>
+                      <a href="outletbandung.php"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1013,7 +1013,7 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-link"></i></a>
+                      <a href="outletcirebon.php"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1027,7 +1027,7 @@
                       <span>JAWA TENGAH</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-link"></i></a>
+                      <a href="outletsemarang.php"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>  
@@ -1041,7 +1041,7 @@
                       <span>D.I. YOGYAKARTA</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-link"></i></a>
+                      <a href="outletyogyakarta.php"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
@@ -1055,7 +1055,7 @@
                       <span>JAWA TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="#"><i class="fa fa-link"></i></a>
+                      <a href="outletsurabaya.php"><i class="fa fa-link"></i></a>
                     </div>
                   </div>
                 </li>
