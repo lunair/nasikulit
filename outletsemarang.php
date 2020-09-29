@@ -70,8 +70,9 @@
           <a class="navbar-brand" href="index.html"><img src="assets/img/logonaskul.png" alt="Logo img" style="height: 60px"></a> 
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">                       
-            <li><a href="#mu-restaurant-menu">OUTLET KAMI</a></li>                       
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+          <li><a href="index.php">BERANDA</a>                         
+          <li><a href="#mu-restaurant-menu">OUTLET KAMI</a></li>                       
               </ul>
             </li>
           </ul>                            
@@ -155,7 +156,7 @@
                             <li>
                               <div class="media">
                                 <div class="media-left">
-                                  <a href="https://goo.gl/maps/hALnJ2j3uALLe1dR7">
+                                  <a href="https://goo.gl/maps/qqcQzG6GPAZ7jTrF9">
                                     <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
                                 </div>
@@ -163,17 +164,25 @@
                                   <h4 class="media-heading"><a href="#"><b>GADJAH MADA</b></a></h4>
                                   <a href="https://gofood.link/u/Mbz3k">
                                     <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
+                                  </a>
                                   <a href="#">
                                     <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
+                                  </a>
                                     <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 11.30 - 21.00</h6></p>
+                                    <p>Senin - Minggu 11.30 - 21.00 WIB</h6></p>
                                 </div>
                               </div>
                             </li>
+                          </ul>   
+                       </div>
+                     </div>
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
                             <li>
                               <div class="media">
                                 <div class="media-left">
-                                  <a href="#">
+                                  <a href="https://goo.gl/maps/B5ZW533mRZ2P69nX6">
                                     <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
                                 </div>
@@ -181,18 +190,17 @@
                                   <h4 class="media-heading"><a href="#"><b>TEMBALANG</b></a></h4>
                                   <a href="https://gofood.link/u/WA9jO3">
                                     <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
+                                  </a>
                                   <a href="#">
                                     <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
+                                  </a>
                                     <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 10.00 - 22.00</p>
+                                    <p>Senin - Minggu 10.00 - 22.00 WIB</p>
                                 </div>
                               </div>
                             </li>
-                          </ul>   
                        </div>
-                     </div>
-                   </div>
-                 </div>
+                    </div>
                 </div>
           </section>
 

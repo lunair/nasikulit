@@ -136,7 +136,7 @@
         <div class="col-md-12">
           <div class="mu-restaurant-menu-area">
             <div class="mu-title">
-              <h2>OUTLET CIREBON</h2>
+              <h2>OUTLET SURABAYA</h2>
               <i class="fa fa-spoon"></i>              
               <span class="mu-title-bar"></span>
             </div>
@@ -156,18 +156,18 @@
                             <li>
                               <div class="media">
                                 <div class="media-left">
-                                  <a href="https://goo.gl/maps/tFuvR97JyUqbus6q8">
+                                  <a href="https://goo.gl/maps/8RvU11ZgecRSnpRg6">
                                     <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>CIREBON</b></a></h4>
-                                  <a href="https://gofood.link/u/OJarM">
+                                  <h4 class="media-heading"><a href="#"><b>SURABAYA</b></a></h4>
+                                  <a href="https://gofood.link/a/yM9hdqq">
                                     <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
                                   <a href="#">
                                     <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
                                     <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Sabtu 10.00 - 19.00 WIB</h6></p>
+                                    <p>Senin - Minggu 00.00 - 23.59 WIB</h6></p>
                                 </div>
                               </div>
                             </li>

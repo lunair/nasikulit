@@ -70,8 +70,9 @@
           <a class="navbar-brand" href="index.html"><img src="assets/img/logonaskul.png" alt="Logo img" style="height: 60px"></a> 
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">                       
-            <li><a href="#mu-restaurant-menu">OUTLET KAMI</a></li>                       
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+           <li><a href="index.php">BERANDA</a>                         
+           <li><a href="#mu-restaurant-menu">OUTLET KAMI</a></li>                       
               </ul>
             </li>
           </ul>                            
@@ -162,7 +163,7 @@
                                 </div>
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#"><b>GODEAN</b></a></h4>
-                                  <a href="https://gofood.link/u/a11O">
+                                  <a href="https://gofood.link/u/db97m">
                                     <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
                                   <a href="#">
                                     <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
@@ -174,55 +175,20 @@
                              <li>
                               <div class="media">
                                 <div class="media-left">
-                                  <a href="https://goo.gl/maps/Suc7sKN4E7LcYizC6">
+                                  <a href="https://goo.gl/maps/LjftkuZjfo1SYtbeA">
                                     <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>KALIBATA</b></a></h4>
-                                 <a href="https://gofood.link/u/qvjxnN">
+                                <h4 class="media-heading"><a href="#"><b>GRHA SABHA PRAMANA (UGM)</b></a></h4>
+                                 <a href="https://gofood.link/u/A1Wlb">
                                     <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
-                                  <a href="#">
-                                    <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
-                                    <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 10.00 - 22.00 WIB</h6></p>
-                                </div>
-                              </div>
-                            </li>
-                             <li>
-                              <div class="media">
-                                <div class="media-left">
-                                  <a href="#">
-                                    <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
-                                </div>
-                                <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>PASAR SANTA</b></a></h4>
-                                <a href="https://gofood.link/u/Pj5ey">
-                                    <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
                                   <a href="#">
                                     <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
-                                    <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Kamis & Sabtu 11.00 - 20.25 WIB</p>
-                                    <p>Jumat 10.30 - 20.45 WIB</p>
-                                </div>
-                              </div>
-                            </li>
-                               <li>
-                              <div class="media">
-                                <div class="media-left">
-                                  <a href="https://goo.gl/maps/Qk6soaYKvhLFHcRa6">
-                                    <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
-                                </div>
-                                <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>TANJUNG DUREN</b></a></h4>
-                                  <a href="https://gofood.link/a/yM9Uds9">
-                                    <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
-                                  <a href="#">
-                                    <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
                                     <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 10.00 - 20.00 WIB</p>
+                                    <p>Selasa - Minggu 17.30 - 22.45 WIB</h6></p>
                                 </div>
                               </div>
                             </li>
@@ -235,81 +201,41 @@
                             <li>
                               <div class="media">
                                 <div class="media-left">
-                                  <a href="https://goo.gl/maps/ZxXcrzj5X6Admrhs6">
+                                  <a href="https://goo.gl/maps/B5ZW533mRZ2P69nX6">
                                     <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>TEBET</b></a></h4>
-                                  <a href="https://gofood.link/u/l7Z50">
+                                  <h4 class="media-heading"><a href="#"><b>NOLOGATEN</b></a></h4>
+                                  <a href="https://gofood.link/u/YJgx">
                                     <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
                                   <a href="#">
                                     <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
                                     <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 10.00 - 22.00 WIB</p>
-                                </div>
-                              </div>
-                            </li>
-                             <li>
-                              <div class="media">
-                                <div class="media-left">
-                                  <a href="https://goo.gl/maps/HjYH21ULoJGki6gY9">
-                                    <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
-                                  </a>
-                                </div>
-                                <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>RAWAMANGUN</b></a></h4>
-                              <a href="https://gofood.link/u/7meMRV">
-                                    <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
-                                  <a href="#">
-                                    <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
-                                    <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 09.00 - 22.00 WIB</p>
-                                </div>
-                              </div>
-                            </li>
-                             <li>
-                              <div class="media">
-                                <div class="media-left">
-                                  <a href="#">
-                                    <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
-                                  </a>
-                                </div>
-                                <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>MOI (GO KITCHEN)</b></a></h4>
-                                  <a href="https://gofood.link/u/WA9jO3">
-                                    <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
-                                  <a href="#">
-                                    <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
-                                    <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 10.00 - 22.00</p>
+                                    <p>Senin - Minggu 16.00 - 23.45 WIB</p>
                                 </div>
                               </div>
                             </li>
                             <li>
                               <div class="media">
                                 <div class="media-left">
-                                  <a href="https://g.page/ksmeruya?share">
+                                  <a href="https://g.page/socialvillagespace?share">
                                     <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>MERUYA X JWESTBROS</b></a></h4>
-                                  <a href="https://gofood.link/u/nvJqYk">
+                                  <h4 class="media-heading"><a href="#"><b>SOCIAL VILLAGE</b></a></h4>
+                                  <a href="https://gofood.link/a/yEbRG1q">
                                     <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
+                                  </a>
                                   <a href="#">
                                     <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
+                                  </a>
                                     <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 10.00 - 22.00</p>
+                                    <p>Senin - Minggu 16.00 - 23.45 WIB</p>
                                 </div>
                               </div>
                             </li>
-                          </ul>   
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-                </div>
                    </div>
                  </div>
                 </div>

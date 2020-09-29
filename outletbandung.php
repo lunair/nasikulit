@@ -70,7 +70,8 @@
           <a class="navbar-brand" href="index.html"><img src="assets/img/logonaskul.png" alt="Logo img" style="height: 60px"></a> 
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">                       
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="index.php">BERANDA</a>                      
             <li><a href="#mu-restaurant-menu">OUTLET KAMI</a></li>                       
               </ul>
             </li>
