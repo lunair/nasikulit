@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Nasi Kulit Syuurga | Beranda</title>
+    <title>Beranda | Nasi Kulit Syuurga</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/naskulico.ico" type="image/x-icon">
@@ -67,7 +67,7 @@
             <span class="icon-bar"></span>
           </button>
           <!-- LOGO -->                                                        
-          <a class="navbar-brand" href="index.html"><img src="assets/img/logonaskul.png" alt="Logo img" style="height: 60px"></a> 
+          <a class="navbar-brand" href="index.php"><img src="assets/img/logonaskul.png" alt="Logo img" style="height: 60px"></a> 
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
@@ -556,6 +556,65 @@
     </div>
   </section> -->
   <!-- End Client Testimonial section -->
+  <!-- Start Subscription section -->
+  <section id="mu-subscription">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-subscription-area">
+            <form class="mu-subscription-form">
+            </form>            
+          </div>
+        </div>
+      </div>
+    </div>    
+  </section>
+  <!-- End Subscription section -->
+  <!-- Start slider  -->
+  <section id="mu-slider">
+    <div class="mu-slider-area"> 
+      <!-- Top slider -->
+      <div class="mu-top-slider">
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/slide1.jpg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <h2 class="mu-slider-title">Nasi Kulit Syuurga</h2>
+            <p><h3 class="media-heading" style="color: white">"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p></h3>
+            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->    
+         <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/slider2.jpg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <h2 class="mu-slider-title">Dewa Kulit</h2>
+            <p><h3 class="media-heading" style="color: white">Yuk Kenalan sama Dewa Kulit !</p></h3>          
+            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide --> 
+         <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/slider3.jpg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <h2 class="mu-slider-title">Menu Baru !</h2>
+            <p><h3 class="media-heading" style="color: white">Nasi Kulit Ayam Bumbu Madura!</p></h3>        
+            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->    
+      </div>
+    </div>
+  </section>
+  <!-- End slider  -->
 
   <!-- Start Subscription section -->
   <section id="mu-subscription">

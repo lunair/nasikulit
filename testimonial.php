@@ -67,12 +67,17 @@
             <span class="icon-bar"></span>
           </button>
           <!-- LOGO -->                                                        
-          <a class="navbar-brand" href="index.html"><img src="assets/img/logonaskul.png" alt="Logo img" style="height: 60px"></a> 
+          <a class="navbar-brand" href="index.php"><img src="assets/img/logonaskul.png" alt="Logo img" style="height: 60px"></a> 
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
-            <li><a href="index.php">BERANDA</a></li>
-            <li><a href="#">TESTIMONIAL</a></li>      
+            <li><a href="index.php">PROFIL</a></li>
+            <li><a href="index.php">TENTANG KAMI</a></li>                       
+            <li><a href="index.php">MENU</a></li>                  
+            <li><a href="index.php">GALERI</a></li>
+            <li><a href="index.php">OUTLET KAMI</a></li> 
+            <li><a href="index.php">KONTAK</a></li>
+            <li><a href="testimonial.php">TESTIMONIAL</a></li>           
               </ul>
             </li>
           </ul>                            
