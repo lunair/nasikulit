@@ -774,25 +774,25 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="mu-contact-left">
-                    <form class="mu-contact-form">
+                    <form action="proses_franchise.php" method="POST" class="mu-contact-form">
                       <div class="form-group">
                         <h3><b>Info Franchise</b></h3>
                         <br><label for="name">Nama Lengkap</label>
-                        <input type="text" class="form-control" id="name" placeholder="Nama Lengkap">
+                        <input type="text" class="form-control" id="name" name="namalengkap" placeholder="Nama Lengkap">
                       </div>
                       <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                       </div>   
                       <div class="form-group">
                         <label for="number">Nomor Whatsapp Aktif</label>
-                        <input type="number" class="form-control" id="number" placeholder="Nomor Whatsapp Aktif">
+                        <input type="text" class="form-control" id="number" name="nowa" placeholder="Nomor Whatsapp Aktif">
                       </div>                      
                       <div class="form-group">
                         <label for="message">Pesan</label>                        
-                        <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
+                        <textarea class="form-control" id="message" name="pesan" cols="30" rows="10" placeholder="Type Your Message"></textarea>
                       </div>                      
-                      <button type="submit" class="mu-send-btn">Kirim</button>
+                      <button type="submit" name="kirim" class="mu-send-btn">Kirim</button>
                     </form>
                   </div>
                 </div>
