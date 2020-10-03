@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Outlet Semarang | Nasi Kulit Syuurga</title>
+    <title>Testimonial | Nasi Kulit Syuurga</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/naskulico.ico" type="image/x-icon">
@@ -71,8 +71,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
-          <li><a href="index.php">BERANDA</a>                         
-          <li><a href="#mu-restaurant-menu">OUTLET KAMI</a></li>                       
+            <li><a href="index.php">BERANDA</a></li>
+            <li><a href="#">TESTIMONIAL</a></li>      
               </ul>
             </li>
           </ul>                            
@@ -94,8 +94,8 @@
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <h2 class="mu-slider-title">Nasi Kulit Syuurga</h2>
-            <p><h3 class="media-heading" style="color: white">"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p></h3>              
-            <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
+            <p><h3 class="media-heading" style="color: white">"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p></h3>
+            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
         </div>
@@ -106,8 +106,8 @@
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <h2 class="mu-slider-title">Dewa Kulit</h2>
-            <p><h3 class="media-heading" style="color: white">Yuk Kenalan sama Dewa Kulit!</p></h3>             
-            <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
+            <p><h3 class="media-heading" style="color: white">Yuk Kenalan sama Dewa Kulit !</p></h3>          
+            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
         </div>
@@ -117,9 +117,9 @@
           <img src="assets/img/slider/slider3.jpg" alt="img">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
-            <h2 class="mu-slider-title">Menu Baru!</h2>
-            <p><h3 class="media-heading" style="color: white">Nasi Kulit Ayam Bumbu Madura!</h3></p>          
-            <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
+            <h2 class="mu-slider-title">Menu Baru !</h2>
+            <p><h3 class="media-heading" style="color: white">Nasi Kulit Ayam Bumbu Madura!</p></h3>        
+            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
         </div>
@@ -129,88 +129,96 @@
   </section>
   <!-- End slider  -->
 
- <!-- Start Restaurant Menu -->
-  <section id="mu-restaurant-menu">
+<!-- Start Contact section -->
+  <section id="mu-contact">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="mu-restaurant-menu-area">
+          <div class="mu-contact-area">
             <div class="mu-title">
-              <h2>OUTLET SEMARANG</h2>
+              <h2>TESTIMONI PELANGGAN</h2>
               <i class="fa fa-spoon"></i>              
               <span class="mu-title-bar"></span>
             </div>
-            <div class="mu-restaurant-menu-content">
-              <ul class="nav nav-tabs mu-restaurant-menu">
-                <li class="active"><a href="#breakfast" data-toggle="tab">ALAMAT</a></li>
-              </ul>
 
-              <!-- Tab panes -->
-             <div class="tab-content">
-                <div class="tab-pane fade in active" id="breakfast">
-                  <div class="mu-tab-content-area">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="mu-tab-content-left">
-                          <ul class="mu-menu-item-nav">
-                            <li>
-                              <div class="media">
-                                <div class="media-left">
-                                  <a href="https://goo.gl/maps/qqcQzG6GPAZ7jTrF9">
-                                    <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
-                                  </a>
-                                </div>
-                                <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>GADJAH MADA</b></a></h4>
-                                  <a href="https://gofood.link/u/Mbz3k">
-                                    <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
-                                  </a>
-                                  <a href="#">
-                                    <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
-                                  </a>
-                                    <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 11.30 - 21.00 WIB</h6></p>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>   
-                       </div>
-                     </div>
-                     <div class="col-md-6">
-                       <div class="mu-tab-content-right">
-                          <ul class="mu-menu-item-nav">
-                            <li>
-                              <div class="media">
-                                <div class="media-left">
-                                  <a href="https://goo.gl/maps/B5ZW533mRZ2P69nX6">
-                                    <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
-                                  </a>
-                                </div>
-                                <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>TEMBALANG</b></a></h4>
-                                  <a href="https://gofood.link/u/WA9jO3">
-                                    <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
-                                  </a>
-                                  <a href="#">
-                                    <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
-                                  </a>
-                                    <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 10.00 - 22.00 WIB</p>
-                                </div>
-                              </div>
-                            </li>
-                       </div>
+            <div class="mu-contact-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mu-contact-left">
+                    <form class="mu-contact-form">
+                      <div class="form-group">
+                        <h3><b></b></h3>
+                        <br><label for="name">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="name" placeholder="Nama Lengkap">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                      </div> 
+                      <div class="form-group">
+                        <label for="number">Nomor Whatsapp Aktif</label>
+                        <input type="number" class="form-control" id="number" placeholder="Nomor Whatsapp Aktif">
+                      </div>    
+                      <div class="form-group">
+                <label>Nama Outlet Yang Dikunjungi</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fa fa-user-o"></i>
                     </div>
-                </div>
-          </section>
+                    <select class="form-control" id="#" name="namaoutlet">
+                    <option selected value="">- Pilih Outlet Yang Dikunjungi -</option>
+                    <?php
+                      include "admin_nasikulit/config/connection.php";
 
-<!-- Start Footer -->
+                      $queryoutlet = mysqli_query($connect,"SELECT * FROM tb_outlet");
+                      while ($dataoutlet = mysqli_fetch_array($queryoutlet)){
+                    ?>
+                    <option value="<?php echo $dataoutlet['kode_outlet']?>"><?php echo $dataoutlet['nama_outlet']?></option>
+                    <?php
+                    }
+                    ?>
+                    </option>
+                    </select>
+                  </div>
+              </div>                  
+                      <div class="form-group">
+                        <label for="message">Pesan, Kesan, Kritik dan Saran Makan Nasi Kulit Syuurga</label>
+                        <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Ceritakan testimoni makan Nasi Kulit Syuurga disini!"></textarea>
+                      </div>  
+                      <div class="form-group">
+                        <label>Foto Bukti</label>
+                        <input id="photo" type="file" class="form-control" name="file" data-max-size="200" accept="image/png, image/jpeg">
+                      </div>                    
+                      <button type="submit" class="mu-send-btn">Kirim</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                <div class="mu-about-us-right">                
+                 <ul class="mu-abtus-slider">                 
+                   <li><img src="assets/img/about-us/aboutnaskul1.jpg" alt="img"></li>
+                   <li><img src="assets/img/about-us/aboutnaskul6.jpg" alt="img"></li>
+                 </ul>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact section -->
+  <!-- Start Footer -->
   <footer id="mu-footer">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
         <div class="mu-footer-area">
            <div class="mu-footer-social">
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="twitter.com/kulitsyuurga"><span class="fa fa-twitter"></span></a>
+            <a href="instagram.com/nasikulitsyuurga"><span class="fa fa-instagram"></span></a>
           </div>
           <div class="mu-footer-copyright">
             <p>Designed by <a rel="nofollow" href="http://www.markups.io/">WEB DEVELOPER NASI KULIT SYUURGA - 2020 -</a></p>

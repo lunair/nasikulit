@@ -29,7 +29,7 @@ default:
     				$query = mysqli_query($connect, "SELECT max(no_faktur) as Faktur FROM tb_trans_penjualan");
         			$data = mysqli_fetch_array($query);
     				$no= $data['Faktur'];
-    				$noUrut= $no+1;
+    				@$noUrut= $no+1;
     				$nofak = "66";
     
 

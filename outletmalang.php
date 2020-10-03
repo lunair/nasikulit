@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Outlet Semarang | Nasi Kulit Syuurga</title>
+    <title>Outlet Malang | Nasi Kulit Syuurga</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/naskulico.ico" type="image/x-icon">
@@ -71,8 +71,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
-          <li><a href="index.php">BERANDA</a>                         
-          <li><a href="#mu-restaurant-menu">OUTLET KAMI</a></li>                       
+           <li><a href="index.php">BERANDA</a>                         
+           <li><a href="#mu-restaurant-menu">OUTLET KAMI</a></li>                       
               </ul>
             </li>
           </ul>                            
@@ -94,7 +94,7 @@
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <h2 class="mu-slider-title">Nasi Kulit Syuurga</h2>
-            <p><h3 class="media-heading" style="color: white">"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p></h3>              
+            <p><h3 class="media-heading" style="color: white">"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p></h3>         
             <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
@@ -129,14 +129,15 @@
   </section>
   <!-- End slider  -->
 
- <!-- Start Restaurant Menu -->
+
+  <!-- Start Restaurant Menu -->
   <section id="mu-restaurant-menu">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="mu-restaurant-menu-area">
             <div class="mu-title">
-              <h2>OUTLET SEMARANG</h2>
+              <h2>OUTLET MALANG</h2>
               <i class="fa fa-spoon"></i>              
               <span class="mu-title-bar"></span>
             </div>
@@ -146,7 +147,7 @@
               </ul>
 
               <!-- Tab panes -->
-             <div class="tab-content">
+              <div class="tab-content">
                 <div class="tab-pane fade in active" id="breakfast">
                   <div class="mu-tab-content-area">
                     <div class="row">
@@ -156,55 +157,36 @@
                             <li>
                               <div class="media">
                                 <div class="media-left">
-                                  <a href="https://goo.gl/maps/qqcQzG6GPAZ7jTrF9">
+                                  <a href="https://goo.gl/maps/XqWWBM1gYhiNa48QA">
                                     <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>GADJAH MADA</b></a></h4>
-                                  <a href="https://gofood.link/u/Mbz3k">
+                                  <h4 class="media-heading"><a href="#"><b>MALANG</b></a></h4>
+                                  <a href="https://gofood.link/u/nJLMmZ">
                                     <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
-                                  </a>
                                   <a href="#">
                                     <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
-                                  </a>
                                     <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 11.30 - 21.00 WIB</h6></p>
+                                    <p>Senin - Minggu 10.00 - 21.00 WIB</h6></p>
                                 </div>
                               </div>
                             </li>
                           </ul>   
-                       </div>
-                     </div>
-                     <div class="col-md-6">
-                       <div class="mu-tab-content-right">
-                          <ul class="mu-menu-item-nav">
-                            <li>
-                              <div class="media">
-                                <div class="media-left">
-                                  <a href="https://goo.gl/maps/B5ZW533mRZ2P69nX6">
-                                    <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
-                                  </a>
-                                </div>
-                                <div class="media-body">
-                                  <h4 class="media-heading"><a href="#"><b>TEMBALANG</b></a></h4>
-                                  <a href="https://gofood.link/u/WA9jO3">
-                                    <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
-                                  </a>
-                                  <a href="#">
-                                    <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
-                                  </a>
-                                    <p><h6 class="media-heading">Jam Operasional :</p>
-                                    <p>Senin - Minggu 10.00 - 22.00 WIB</p>
-                                </div>
-                              </div>
-                            </li>
-                       </div>
-                    </div>
+                        </div>
+                      </div>
+                   </div>
+                 </div>
                 </div>
-          </section>
-
-<!-- Start Footer -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Restaurant Menu -->
+ <!-- Start Footer -->
   <footer id="mu-footer">
     <div class="container">
       <div class="row">

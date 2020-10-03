@@ -39,6 +39,12 @@
                     </div>
                   </li>
                   <li class="nav-item">
+                    <a href="./index.php" class="nav-link"><i class="fe fe-mail"></i> Franchise</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./index.php" class="nav-link"><i class="fe fe-user"></i> Testimoni</a>
+                  </li>
+                  <li class="nav-item">
                     <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-book"></i>Transaksi</a>
                     <div class="dropdown-menu dropdown-menu-arrow">
                       <a href="trans_all_outlet.php" class="dropdown-item ">Transaksi Penjualan All Outlet</a>

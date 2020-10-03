@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Nasi Kulit Syuurga | Outlet Kami</title>
+    <title>Outlet Surabaya | Nasi Kulit Syuurga</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/naskulico.ico" type="image/x-icon">
@@ -94,7 +94,7 @@
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <h2 class="mu-slider-title">Nasi Kulit Syuurga</h2>
-            <p>"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p>           
+           <p><h3 class="media-heading" style="color: white">"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p></h3>
             <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
@@ -105,8 +105,8 @@
           <img src="assets/img/slider/slider2.jpg" alt="img">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
-            <h2 class="mu-slider-title">DEWA KULIT</h2>
-            <p>Yuk Kenalan Sama Dewa Kulit!</p>           
+            <h2 class="mu-slider-title">Dewa Kulit</h2>
+            <p><h3 class="media-heading" style="color: white">Yuk Kenalan sama Dewa Kulit!</p></h3>           
             <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
@@ -117,8 +117,8 @@
           <img src="assets/img/slider/slider3.jpg" alt="img">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
-            <h2 class="mu-slider-title">MENU BARU !</h2>
-            <p>Nasi Kulit Ayam Bumbu Madura !</p>           
+            <h2 class="mu-slider-title">Menu Baru!</h2>
+            <p><h3 class="media-heading" style="color: white">Nasi Kulit Ayam Bumbu Madura!</h3></p>             
             <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->

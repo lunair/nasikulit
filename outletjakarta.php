@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Nasi Kulit Syuurga | Outlet Kami</title>
+    <title>Outlet Jakarta | Nasi Kulit Syuurga</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/naskulico.ico" type="image/x-icon">
@@ -94,7 +94,7 @@
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <h2 class="mu-slider-title">Nasi Kulit Syuurga</h2>
-            <p>"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p>           
+            <p><h3 class="media-heading" style="color: white">"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p></h3>           
             <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
@@ -105,8 +105,8 @@
           <img src="assets/img/slider/slider2.jpg" alt="img">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
-            <h2 class="mu-slider-title">DEWA KULIT</h2>
-            <p>Yuk Kenalan Sama Dewa Kulit!</p>           
+            <h2 class="mu-slider-title">Dewa Kulit</h2>
+            <p><h3 class="media-heading" style="color: white">Yuk Kenalan sama Dewa Kulit!</p></h3>            
             <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
@@ -118,7 +118,7 @@
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <h2 class="mu-slider-title">MENU BARU !</h2>
-            <p>Nasi Kulit Ayam Bumbu Madura !</p>           
+            <p><h3 class="media-heading" style="color: white">Nasi Kulit Ayam Bumbu Madura!</h3></p>           
             <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
@@ -218,6 +218,24 @@
                                 <div class="media-body">
                                   <h4 class="media-heading"><a href="#"><b>TANJUNG DUREN</b></a></h4>
                                   <a href="https://gofood.link/u/Pj5ey">
+                                  <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
+                                  </a>
+                                  <a href="#">
+                                  <img class="media-object" src="assets/img/chef/grabfoodbaru.png" alt="img">
+                                  </a>
+                                  <p><h6 class="media-heading">Jam Operasional :</p>
+                                  <p>Senin - Kamis & Sabtu 11.00 - 20.25 WIB</p>
+                                </div>
+                                 <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="https://goo.gl/maps/Qk6soaYKvhLFHcRa6">
+                                    <img class="media-object" src="assets/img/chef/google maps.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#"><b>BAYWALK (BARU)</b></a></h4>
+                                  <a href="https://gofood.link/a/yDeuUmu">
                                   <img class="media-object" src="assets/img/chef/gofoodbaru.png" alt="img">
                                   </a>
                                   <a href="#">

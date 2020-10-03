@@ -76,7 +76,8 @@
             <li><a href="#mu-restaurant-menu">MENU</a></li>                  
             <li><a href="#mu-gallery">GALERI</a></li>
             <li><a href="#mu-chef">OUTLET KAMI</a></li> 
-            <li><a href="#mu-contact">KONTAK</a></li>      
+            <li><a href="#mu-contact">KONTAK</a></li>
+            <li><a href="testimonial.php">TESTIMONIAL</a></li>      
               </ul>
             </li>
           </ul>                            
@@ -98,8 +99,8 @@
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
             <h2 class="mu-slider-title">Nasi Kulit Syuurga</h2>
-            <p>"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p>           
-            <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
+            <p><h3 class="media-heading" style="color: white">"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p></h3>
+            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
         </div>
@@ -109,9 +110,9 @@
           <img src="assets/img/slider/slider2.jpg" alt="img">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
-            <h2 class="mu-slider-title">DEWA KULIT</h2>
-            <p>Yuk Kenalan Sama Dewa Kulit!</p>           
-            <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
+            <h2 class="mu-slider-title">Dewa Kulit</h2>
+            <p><h3 class="media-heading" style="color: white">Yuk Kenalan sama Dewa Kulit !</p></h3>          
+            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
         </div>
@@ -121,9 +122,9 @@
           <img src="assets/img/slider/slider3.jpg" alt="img">
           <!-- Top slider content -->
           <div class="mu-top-slider-content">
-            <h2 class="mu-slider-title">MENU BARU !</h2>
-            <p>Nasi Kulit Ayam Bumbu Madura !</p>           
-            <a href="#" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
+            <h2 class="mu-slider-title">Menu Baru !</h2>
+            <p><h3 class="media-heading" style="color: white">Nasi Kulit Ayam Bumbu Madura!</p></h3>        
+            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
           </div>
           <!-- / Top slider content -->
         </div>
@@ -147,11 +148,11 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="mu-about-us-left">
-                 <p align="justify"><b>NASI KULIT SYUURGA</b> merupakan brand kuliner lokal Yogyakarta dengan ayam gurih sebagai produk andalannya ini didirikan pada Maret 2018. Berbekal pengalaman dan tim yang memiliki kompetensi dibidangnya masing-masing menjadikan intuisi dalam kuliner cukup tinggi. Tercetuslah kulit ayam sebagai produk utama dalam brand ini. Langkah ini diambil sebagai salah satu gebrakan untuk menciptakan blue ocean strategy ditengah persaingan ketat ayam potong di Indonesia. Nasi Kulit Syuurga akan terus berinovasi dan menjadi leader dalam brand kuliner nasional maupun internasional.</p>
+                 <p align="justify"><font face="Arial"><b>NASI KULIT SYUURGA</b> merupakan brand kuliner lokal Yogyakarta dengan ayam gurih sebagai produk andalannya ini didirikan pada Maret 2018. Berbekal pengalaman dan tim yang memiliki kompetensi dibidangnya masing-masing menjadikan intuisi dalam kuliner cukup tinggi. Tercetuslah kulit ayam sebagai produk utama dalam brand ini. Langkah ini diambil sebagai salah satu gebrakan untuk menciptakan blue ocean strategy ditengah persaingan ketat ayam potong di Indonesia. Nasi Kulit Syuurga akan terus berinovasi dan menjadi leader dalam brand kuliner nasional maupun internasional.</p>
                  <p><b>PELOPOR NASI KULIT DI INDONESIA</b></p>                  
                   <p align="justify">Nasi Kulit Syuurga akhirnya diciptakan untuk memasuki pasar kuliner Yogyakarta untuk awal, tidak hanya ide kecil atau obrolan belaka, brand ini cukup diperhatikan dari awal dimana kami harus berkonsultasi dengan pakar-pakar kuliner Indonesia.</p> 
                  <p align="justify"><b>35 OUTLET DI SELURUH INDONESIA</b></p>
-                 <p align="justify">Hal ini juga  membuktikan  dengan  bermunculnya  brand-brand pesaing,  dengan  bangga  kami  senang  memberikan  inspirasi untuk banyak orang tanpa lelah berinovasi untuk SELALU menjadi brand  NASI  Kulit  TERBESAR  di  INDONESIA  dan  segera  di  Negara tetangga.  Penciptaan  produk  hingga menu nasi kulit  paru menjadi suatu patern baru di INDONESIA bahwa kulit ayam akan mampu berkolaborasi dengan produk lainya.</p> 
+                 <p align="justify">Hal ini juga  membuktikan  dengan  bermunculnya  brand-brand pesaing,  dengan  bangga  kami  senang  memberikan  inspirasi untuk banyak orang tanpa lelah berinovasi untuk selalu menjadi brand  Nasi  Kulit  TERBESAR  di  INDONESIA  dan  segera  di  Negara tetangga.  Penciptaan  produk  hingga menu nasi kulit  paru menjadi suatu patern baru di Indonesia bahwa kulit ayam akan mampu berkolaborasi dengan produk lainya.</p></font>
                 </div>
               </div>
               <div class="col-md-6">
@@ -220,7 +221,7 @@
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#">Paket A Take Away</a></h4>
+                                  <h4 class="media-heading"><a href="#"><font face="Arial"><b>Paket A Take Away</a></b></h4>
                                   <span class="mu-menu-price">IDR : Available On Outlet</span>
                                   <p>Nasi Kulit + Paru</p>
                                 </div>
@@ -234,7 +235,7 @@
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#">Paket B Take Away</a></h4>
+                                  <h4 class="media-heading"><a href="#"><b>Paket B Take Away</b></a></h4>
                                   <span class="mu-menu-price">IDR : Available On Outlet</span>
                                   <p>Nasi Kulit + Ayam Goreng</p>
                                 </div>
@@ -248,7 +249,7 @@
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#">Paket C Take Away</a></h4>
+                                  <h4 class="media-heading"><a href="#"><b>Paket C Take Away</b></a></h4>
                                   <span class="mu-menu-price">IDR : Available On Outlet</span>
                                   <p>Nasi Kulit + Ayam Goreng + Paru</p>
                                 </div>
@@ -268,7 +269,7 @@
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#">Paket A Dine In</a></h4>
+                                  <h4 class="media-heading"><a href="#"><b>Paket A Dine In</b></a></h4>
                                   <span class="mu-menu-price">IDR : Available On Outlet</span>
                                   <p>Nasi Kulit + Paru</p>
                                 </div>
@@ -282,7 +283,7 @@
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#">Paket B Dine In</a></h4>
+                                  <h4 class="media-heading"><a href="#"><b>Paket B Dine In</b></a></h4>
                                   <span class="mu-menu-price">IDR : Available On Outlet</span>
                                   <p>Nasi Kulit + Ayam Goreng</p>
                                 </div>
@@ -296,9 +297,17 @@
                                   </a>
                                 </div>
                                 <div class="media-body">
-                                  <h4 class="media-heading"><a href="#">Paket C Dine In</a></h4>
+                                  <h4 class="media-heading"><a href="#"><b>Paket C Dine In</b></a></h4>
                                   <span class="mu-menu-price">IDR : Available On Outlet</span>
                                   <p>Nasi Kulit + Ayam Goreng + Paru</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </font>
+
                                 </div>
                               </div>
                             </li>
@@ -767,18 +776,18 @@
                   <div class="mu-contact-left">
                     <form class="mu-contact-form">
                       <div class="form-group">
-                        <h3><b>Info Franchise / Kritik / Saran</b></h3>
+                        <h3><b>Info Franchise</b></h3>
                         <br><label for="name">Nama Lengkap</label>
-                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <input type="text" class="form-control" id="name" placeholder="Nama Lengkap">
                       </div>
                       <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" placeholder="Email">
-                      </div>                      
+                      </div>   
                       <div class="form-group">
-                        <label for="subject">Subjek</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                      </div>
+                        <label for="number">Nomor Whatsapp Aktif</label>
+                        <input type="number" class="form-control" id="number" placeholder="Nomor Whatsapp Aktif">
+                      </div>                      
                       <div class="form-group">
                         <label for="message">Pesan</label>                        
                         <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
