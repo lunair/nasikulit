@@ -38,24 +38,23 @@
                       <a href="./satuan_bahan.php" class="dropdown-item ">Satuan Bahan</a>
                     </div>
                   </li>
-                  <li class="nav-item">
-                    <a href="./index.php" class="nav-link"><i class="fe fe-mail"></i> Franchise</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="./index.php" class="nav-link"><i class="fe fe-user"></i> Testimoni</a>
-                  </li>
+                  
                   <li class="nav-item">
                     <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-book"></i>Transaksi</a>
                     <div class="dropdown-menu dropdown-menu-arrow">
                       <a href="trans_all_outlet.php" class="dropdown-item ">Transaksi Penjualan All Outlet</a>
-                      <a href="trans_per_outlet.php" class="dropdown-item ">Transaksi Penjualan Per Outlet</a>
                     </div>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./franchise.php" class="nav-link"><i class="fe fe-mail"></i>Franchise</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./testimoni.php" class="nav-link"><i class="fe fe-user"></i>Testimoni</a>
                   </li>
                   <li class="nav-item">
                     <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-book"></i>Laporan</a>
                     <div class="dropdown-menu dropdown-menu-arrow">
                       <a href="laporan_all_outlet.php" class="dropdown-item ">Laporan All Outlet</a>
-                      <a href="laporan_per_outlet.php" class="dropdown-item ">Laporan Per Outlet</a>
                     </div>
                   </li>
                   
