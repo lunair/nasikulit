@@ -1,15 +1,13 @@
 <?php include_once "views/main.php";?>
 <?php include_once "config/connection.php";?>
-<<<<<<< HEAD
 
-=======
 <?php 
 //$main_view= "<script>window.location.href='data_bahan.php';</script>";
 //switch (@$_GET["act"]){
 //default:
 //INDEX======================================================================================================
 ?>
->>>>>>> fd7d3da7a28559b1885620db5234aa076e04f68f
+
 <div class="my-3 my-md-1">
   <div class="container">
           <ol class="breadcrumb">
@@ -24,9 +22,9 @@
                <h3 class="card-title">Data Franchise</h3>
             </div>
             <div class="card-body">
-          	<div class="table-responsive">
+            <div class="table-responsive">
             <table class="table card-table table-vcenter text-nowrap datatable">
-            	<thead>
+              <thead>
                 <tr>
                   <th class="w-2">No.</th>
                   <th>Nama Lengkap</th>
@@ -34,7 +32,7 @@
                   <th>No Whatsapp</th>
                   <th>Pesan</th>
                 </tr>
-<<<<<<< HEAD
+
               </thead>
               <tbody>
                 <?php
@@ -62,6 +60,6 @@
       </div>
     </div>
   </div>
-=======
+
               </thead>
->>>>>>> fd7d3da7a28559b1885620db5234aa076e04f68f
+
