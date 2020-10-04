@@ -96,8 +96,9 @@ default:
                   <th class="w-2">No.</th>
                   <th>Nama Bahan</th>
                   <th>Berat Bahan</th>
-                  <th>Harga Bahan</th>
                   <th>Satuan Bahan</th>
+                  <th>Harga Bahan</th>
+                  
                   <th class="w-2">Aksi</th>
                 </tr>
               </thead>
@@ -111,8 +112,9 @@ default:
                   <td><span class="text-muted"><?php echo $no; ?></span></td>
                   <td><?php echo $d['nama_bahan']; ?></td>
                   <td><?php echo $d['berat_bahan']; ?></td>
-                  <td><?php echo $d['harga_bahan']; ?></td>
                   <td><?php echo $d['nama_satuan']; ?></td>
+                  <td><?php echo $d['harga_bahan']; ?></td>
+                  
                   <td class="text-left">
                     <a href="bahan_edit.php?id=<?php echo $d['id_bahan'];?>" class="btn btn-info btn-sm"><i class="fe fe-edit"></i>Ubah</a>
                     <a href="?&act=delete&id=<?php echo $d['id_bahan']; ?>" onClick="return confirm('Yakin data akan dihapus ?')"
