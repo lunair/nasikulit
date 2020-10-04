@@ -362,6 +362,11 @@
                 <!-- Start gallery menu -->
                 <ul>
                   <li class="filter active" data-filter="all">ALL</li>
+                  <li class="filter" data-filter=".food">FOOD</li>
+                  <li class="filter" data-filter=".drink">DRINK</li>
+                  <li class="filter" data-filter=".restaurant">RESTAURANT</li>
+                  <li class="filter" data-filter=".dinner">DINNER</li>
+                  <li class="filter" data-filter=".dessert">DESSERT</li>
                 </ul>
               </div>
               <!-- Start gallery image -->
@@ -595,7 +600,7 @@
                       <span>DKI JAKARTA</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="outletjakarta.php"><i class="fa fa-link"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                   </div>
                 </li>
@@ -609,7 +614,11 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletbandung.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -623,7 +632,11 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletcirebon.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -637,7 +650,11 @@
                       <span>JAWA TENGAH</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletsemarang.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>  
@@ -651,7 +668,11 @@
                       <span>D.I. YOGYAKARTA</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletyogyakarta.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -665,7 +686,11 @@
                       <span>JAWA TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletsurabaya.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -679,7 +704,11 @@
                       <span>JAWA TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletmalang.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -693,7 +722,11 @@
                       <span>SULAWESI SELATAN</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletmakasar.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -707,7 +740,11 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletbogor.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -721,7 +758,11 @@
                       <span>KALIMANTAN TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletsamarinda.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -735,7 +776,11 @@
                       <span>BALI</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletbali.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>                                                          
