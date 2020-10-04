@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Beranda | Nasi Kulit Syuurga</title>
+    <title>Nasi Kulit Syuurga | Beranda</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/naskulico.ico" type="image/x-icon">
@@ -67,7 +67,7 @@
             <span class="icon-bar"></span>
           </button>
           <!-- LOGO -->                                                        
-          <a class="navbar-brand" href="index.php"><img src="assets/img/logonaskul.png" alt="Logo img" style="height: 60px"></a> 
+          <a class="navbar-brand" href="index.html"><img src="assets/img/logonaskul.png" alt="Logo img" style="height: 60px"></a> 
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
@@ -362,6 +362,11 @@
                 <!-- Start gallery menu -->
                 <ul>
                   <li class="filter active" data-filter="all">ALL</li>
+                  <li class="filter" data-filter=".food">FOOD</li>
+                  <li class="filter" data-filter=".drink">DRINK</li>
+                  <li class="filter" data-filter=".restaurant">RESTAURANT</li>
+                  <li class="filter" data-filter=".dinner">DINNER</li>
+                  <li class="filter" data-filter=".dessert">DESSERT</li>
                 </ul>
               </div>
               <!-- Start gallery image -->
@@ -556,65 +561,6 @@
     </div>
   </section> -->
   <!-- End Client Testimonial section -->
-  <!-- Start Subscription section -->
-  <section id="mu-subscription">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="mu-subscription-area">
-            <form class="mu-subscription-form">
-            </form>            
-          </div>
-        </div>
-      </div>
-    </div>    
-  </section>
-  <!-- End Subscription section -->
-  <!-- Start slider  -->
-  <section id="mu-slider">
-    <div class="mu-slider-area"> 
-      <!-- Top slider -->
-      <div class="mu-top-slider">
-        <!-- Top slider single slide -->
-        <div class="mu-top-slider-single">
-          <img src="assets/img/slider/slide1.jpg" alt="img">
-          <!-- Top slider content -->
-          <div class="mu-top-slider-content">
-            <h2 class="mu-slider-title">Nasi Kulit Syuurga</h2>
-            <p><h3 class="media-heading" style="color: white">"Saatnya Kita Mengingat Lagi Nikmatnya Makanan Tradisional Indonesia"</p></h3>
-            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
-          </div>
-          <!-- / Top slider content -->
-        </div>
-        <!-- / Top slider single slide -->    
-         <!-- Top slider single slide -->
-        <div class="mu-top-slider-single">
-          <img src="assets/img/slider/slider2.jpg" alt="img">
-          <!-- Top slider content -->
-          <div class="mu-top-slider-content">
-            <h2 class="mu-slider-title">Dewa Kulit</h2>
-            <p><h3 class="media-heading" style="color: white">Yuk Kenalan sama Dewa Kulit !</p></h3>          
-            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
-          </div>
-          <!-- / Top slider content -->
-        </div>
-        <!-- / Top slider single slide --> 
-         <!-- Top slider single slide -->
-        <div class="mu-top-slider-single">
-          <img src="assets/img/slider/slider3.jpg" alt="img">
-          <!-- Top slider content -->
-          <div class="mu-top-slider-content">
-            <h2 class="mu-slider-title">Menu Baru !</h2>
-            <p><h3 class="media-heading" style="color: white">Nasi Kulit Ayam Bumbu Madura!</p></h3>        
-            <a href="#mu-about-us" class="mu-readmore-btn">BACA SELENGKAPNYA</a>
-          </div>
-          <!-- / Top slider content -->
-        </div>
-        <!-- / Top slider single slide -->    
-      </div>
-    </div>
-  </section>
-  <!-- End slider  -->
 
   <!-- Start Subscription section -->
   <section id="mu-subscription">
@@ -654,7 +600,7 @@
                       <span>DKI JAKARTA</span>
                     </div>
                     <div class="mu-single-chef-social">
-                      <a href="outletjakarta.php"><i class="fa fa-link"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                   </div>
                 </li>
@@ -668,7 +614,11 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletbandung.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -682,7 +632,11 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletcirebon.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -696,7 +650,11 @@
                       <span>JAWA TENGAH</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletsemarang.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>  
@@ -710,7 +668,11 @@
                       <span>D.I. YOGYAKARTA</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletyogyakarta.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -724,7 +686,11 @@
                       <span>JAWA TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletsurabaya.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -738,7 +704,11 @@
                       <span>JAWA TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletmalang.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -752,7 +722,11 @@
                       <span>SULAWESI SELATAN</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletmakasar.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -766,7 +740,11 @@
                       <span>JAWA BARAT</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletbogor.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -780,7 +758,11 @@
                       <span>KALIMANTAN TIMUR</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletsamarinda.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>
@@ -794,7 +776,11 @@
                       <span>BALI</span>
                     </div>
                     <div class="mu-single-chef-social">
+<<<<<<< HEAD
                       <a href="outletbali.php"><i class="fa fa-link"></i></a>
+=======
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+>>>>>>> parent of f92022d... Merge branch 'master' of https://github.com/agengnugrohoadi/nasikulit
                     </div>
                   </div>
                 </li>                                                          
@@ -833,25 +819,25 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="mu-contact-left">
-                    <form class="mu-contact-form">
+                    <form action="proses_franchise.php" method="POST" class="mu-contact-form">
                       <div class="form-group">
                         <h3><b>Info Franchise</b></h3>
                         <br><label for="name">Nama Lengkap</label>
-                        <input type="text" class="form-control" id="name" placeholder="Nama Lengkap">
+                        <input type="text" class="form-control" id="name" name="namalengkap" placeholder="Nama Lengkap">
                       </div>
                       <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                       </div>   
                       <div class="form-group">
                         <label for="number">Nomor Whatsapp Aktif</label>
-                        <input type="number" class="form-control" id="number" placeholder="Nomor Whatsapp Aktif">
+                        <input type="text" class="form-control" id="number" name="nowa" placeholder="Nomor Whatsapp Aktif">
                       </div>                      
                       <div class="form-group">
                         <label for="message">Pesan</label>                        
-                        <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
+                        <textarea class="form-control" id="message" name="pesan" cols="30" rows="10" placeholder="Type Your Message"></textarea>
                       </div>                      
-                      <button type="submit" class="mu-send-btn">Kirim</button>
+                      <button type="submit" name="kirim" class="mu-send-btn">Kirim</button>
                     </form>
                   </div>
                 </div>

@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 03 Okt 2020 pada 09.26
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.4
+-- Generation Time: Oct 04, 2020 at 08:17 AM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_bahan`
+-- Table structure for table `tb_bahan`
 --
 
 CREATE TABLE `tb_bahan` (
@@ -36,7 +36,7 @@ CREATE TABLE `tb_bahan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `tb_bahan`
+-- Dumping data for table `tb_bahan`
 --
 
 INSERT INTO `tb_bahan` (`id_bahan`, `nama_bahan`, `berat_bahan`, `harga_bahan`, `id_satuan`) VALUES
@@ -48,7 +48,7 @@ INSERT INTO `tb_bahan` (`id_bahan`, `nama_bahan`, `berat_bahan`, `harga_bahan`, 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_franchise`
+-- Table structure for table `tb_franchise`
 --
 
 CREATE TABLE `tb_franchise` (
@@ -59,10 +59,17 @@ CREATE TABLE `tb_franchise` (
   `pesan` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `tb_franchise`
+--
+
+INSERT INTO `tb_franchise` (`id_franchise`, `namalengkap`, `email`, `no_wa`, `pesan`) VALUES
+(1, 'Ageng Nugroho Adi', 'agengnugrohoadi@gmail.com', '085778654890', 'test');
+
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_outlet`
+-- Table structure for table `tb_outlet`
 --
 
 CREATE TABLE `tb_outlet` (
@@ -71,7 +78,7 @@ CREATE TABLE `tb_outlet` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `tb_outlet`
+-- Dumping data for table `tb_outlet`
 --
 
 INSERT INTO `tb_outlet` (`kode_outlet`, `nama_outlet`) VALUES
@@ -98,7 +105,7 @@ INSERT INTO `tb_outlet` (`kode_outlet`, `nama_outlet`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_satuan_bahan`
+-- Table structure for table `tb_satuan_bahan`
 --
 
 CREATE TABLE `tb_satuan_bahan` (
@@ -107,7 +114,7 @@ CREATE TABLE `tb_satuan_bahan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `tb_satuan_bahan`
+-- Dumping data for table `tb_satuan_bahan`
 --
 
 INSERT INTO `tb_satuan_bahan` (`id_satuan`, `nama_satuan`) VALUES
@@ -119,7 +126,7 @@ INSERT INTO `tb_satuan_bahan` (`id_satuan`, `nama_satuan`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_testimonial`
+-- Table structure for table `tb_testimonial`
 --
 
 CREATE TABLE `tb_testimonial` (
@@ -135,7 +142,7 @@ CREATE TABLE `tb_testimonial` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_trans_penjualan`
+-- Table structure for table `tb_trans_penjualan`
 --
 
 CREATE TABLE `tb_trans_penjualan` (
@@ -152,7 +159,7 @@ CREATE TABLE `tb_trans_penjualan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `tb_trans_penjualan`
+-- Dumping data for table `tb_trans_penjualan`
 --
 
 INSERT INTO `tb_trans_penjualan` (`id_penjualan`, `no_faktur`, `kode_outlet`, `tgl_penjualan`, `keterangan`, `id_bahan`, `berat`, `id_satuan`, `harga`, `jumlah`) VALUES
@@ -168,39 +175,39 @@ INSERT INTO `tb_trans_penjualan` (`id_penjualan`, `no_faktur`, `kode_outlet`, `t
 --
 
 --
--- Indeks untuk tabel `tb_bahan`
+-- Indexes for table `tb_bahan`
 --
 ALTER TABLE `tb_bahan`
   ADD PRIMARY KEY (`id_bahan`),
   ADD KEY `id_satuan` (`id_satuan`);
 
 --
--- Indeks untuk tabel `tb_franchise`
+-- Indexes for table `tb_franchise`
 --
 ALTER TABLE `tb_franchise`
   ADD PRIMARY KEY (`id_franchise`);
 
 --
--- Indeks untuk tabel `tb_outlet`
+-- Indexes for table `tb_outlet`
 --
 ALTER TABLE `tb_outlet`
   ADD PRIMARY KEY (`kode_outlet`);
 
 --
--- Indeks untuk tabel `tb_satuan_bahan`
+-- Indexes for table `tb_satuan_bahan`
 --
 ALTER TABLE `tb_satuan_bahan`
   ADD PRIMARY KEY (`id_satuan`);
 
 --
--- Indeks untuk tabel `tb_testimonial`
+-- Indexes for table `tb_testimonial`
 --
 ALTER TABLE `tb_testimonial`
   ADD PRIMARY KEY (`id_testimonial`),
   ADD KEY `kode_outlet` (`kode_outlet`);
 
 --
--- Indeks untuk tabel `tb_trans_penjualan`
+-- Indexes for table `tb_trans_penjualan`
 --
 ALTER TABLE `tb_trans_penjualan`
   ADD PRIMARY KEY (`id_penjualan`),
@@ -209,35 +216,35 @@ ALTER TABLE `tb_trans_penjualan`
   ADD KEY `id_satuan` (`id_satuan`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `tb_bahan`
+-- AUTO_INCREMENT for table `tb_bahan`
 --
 ALTER TABLE `tb_bahan`
   MODIFY `id_bahan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
--- AUTO_INCREMENT untuk tabel `tb_franchise`
+-- AUTO_INCREMENT for table `tb_franchise`
 --
 ALTER TABLE `tb_franchise`
-  MODIFY `id_franchise` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_franchise` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT untuk tabel `tb_satuan_bahan`
+-- AUTO_INCREMENT for table `tb_satuan_bahan`
 --
 ALTER TABLE `tb_satuan_bahan`
   MODIFY `id_satuan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- AUTO_INCREMENT untuk tabel `tb_testimonial`
+-- AUTO_INCREMENT for table `tb_testimonial`
 --
 ALTER TABLE `tb_testimonial`
   MODIFY `id_testimonial` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT untuk tabel `tb_trans_penjualan`
+-- AUTO_INCREMENT for table `tb_trans_penjualan`
 --
 ALTER TABLE `tb_trans_penjualan`
   MODIFY `id_penjualan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
